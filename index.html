@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Theyalow</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 48" id="download">
+      <path
+        d="M81.75 74H23.844a23.449 23.449 0 0 1-6.727-46.024c-.018-.36-.086-.7-.086-1.067a16.859 16.859 0 0 1 22.388-15.887 27.261 27.261 0 0 1 48.408 9.885A26.851 26.851 0 0 1 81.75 74zM61.312 47.091V26.909H47.687v20.182H37.256L54.5 64.119l17.244-17.028H61.312z"
+        fill="#f5c506" fill-rule="evenodd"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 100" id="leaf">
+      <path
+        d="M75.64 55.57c-4.693 30.106-35.934 32.193-53.4 30.94-1.156 5.177-1.6 8.49-1.6 8.49h-8.597s11.067-41.969 36.85-64.269a62.546 62.546 0 0 1 16.114-10.71c-27.813 10.2-47.219 44.8-55.858 63.2a49.1 49.1 0 0 1-2.423-50.533C20.059 7.058 92 0 92 0S81.312 19.183 75.64 55.57z"
+        fill="#f5c506" fill-rule="evenodd"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 85" id="logo">
+      <path
+        d="M2.174 22.287l18.781-.713-.126-18.795 8.019 7.668.126 18.795-18.781.712zm12.17 11.638l18.78-.713L33 14.418l8.019 7.668.126 18.795-18.781.712zm47.827 45.737l-.126-18.794 18.781-.714-8.019-7.668-18.782.714.127 18.794zM50 68.024l-.125-18.794 18.781-.714-8.019-7.668-18.782.713.127 18.794zM60.434 1.895l.713 18.78 18.794-.126-7.668 8.019-18.795.126-.712-18.781zM48.8 14.065l.713 18.781 18.787-.127-7.668 8.019-18.795.126-.71-18.781zM3.059 61.892l18.794-.126.714 18.781 7.668-8.019-.714-18.782-18.794.127zM14.7 49.722l18.791-.122.709 18.777 7.668-8.019-.708-18.782-18.795.124z"
+        opacity=".5" fill="#f5c506" fill-rule="evenodd"></path>
+      <path
+        d="M-.008 55l13.08-13.5L-.008 28h11.1l13.077 13.5L11.087 55h-11.1zm16.839 0l13.08-13.5L16.831 28h11.1l13.077 13.5L27.927 55h-11.1zm66.177 0l-13.08-13.5L83.008 28h-11.1L58.831 41.5 71.913 55h11.1zm-16.839 0L53.088 41.5 66.169 28h-11.1L41.992 41.5 55.073 55h11.1zM28-.008l13.5 13.08L55-.008v11.1L41.5 24.169 28 11.087v-11.1zm0 16.839l13.5 13.08L55 16.831v11.1L41.5 41.008 28 27.927v-11.1zm0 66.177l13.5-13.08L55 83.008v-11.1L41.5 58.831 28 71.913v11.1zm0-16.839l13.5-13.08L55 66.169v-11.1L41.5 41.992 28 55.073v11.1z"
+        fill="#f5c506" fill-rule="evenodd"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="-3 -18 109 100" id="plane">
+      <path d="M59.231 50.806v24.145L48.693 61.277 26.831 83 0 0l81 29.176zM7.594 7.881l46.069 48.458 5.4-5.366z"
+        fill="#f5c506" fill-rule="evenodd"></path>
+    </symbol>
+  </svg>
+
+  <div class="first-screen-wrapper">
+
+    <!-- Header -->
+
+    <header class="header">
+      <h1 class="visually-hidden">
+        Theyalow video application.
+      </h1>
+      <div class="wrapper header-wrapper">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <svg class="icon" width="83" height="83">
+              <use xlink:href="#logo"></use>
+            </svg>
+            <span class="logo-title">
+              Theyalow
+            </span>
+          </a>
+        </div>
+        <nav class="navigation">
+          <ul class="main-nav">
+            <li><a href="#" class="main-nav-link about-link">About us</a></li>
+            <li><a href="#" class="main-nav-link services-link">Services</a></li>
+            <li><a href="#" class="main-nav-link contact-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Slider -->
+
+    <section class="slider-block">
+      <div class="wrapper">
+        <div class="slider">
+          <div class="slider-item">
+            <video src="#" poster="./assets/img/mobileposter.png" width="549" height="327" controls></video>
+            <h2 class="slider-title">
+              <span class="colored">The cool</span>
+              The minimal
+            </h2>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn slider-btn-next"></button>
+      <button class="slider-btn slider-btn-prev" disabled></button>
+    </section>
+  </div>
+  <main>
+
+    <!-- Advantages -->
+
+    <div class="advantages">
+      <div class="wrapper">
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <svg class="icon">
+              <use xlink:href="#download"></use>
+            </svg>
+            <p class="advantage">Better design</p>
+          </li>
+          <li class="advantages-item">
+            <svg class="icon">
+              <use xlink:href="#leaf"></use>
+            </svg>
+            <p class="advantage">Customise</p>
+          </li>
+          <li class="advantages-item">
+            <svg class="icon">
+              <use xlink:href="#plane"></use>
+            </svg>
+            <p class="advantage">Its free</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Posts -->
+
+    <section class="posts">
+      <div class="wrapper">
+        <h2 class="section-title">
+          Lorem ipsum dolor sit amet
+        </h2>
+        <ul class="posts-list">
+          <li class="posts-item">
+            <div class="posts-content">
+              <div class="description">
+                Lorem ipsum dolor sit amet, consecte&shy;tur adipisicing elit,
+                sed do eiusmod tempor incididunt ut
+                <button class="plus"></button>
+              </div>
+              <video src="#" poster="./assets/img/preview.jpg" width="315" height="232" controls></video>
+              <time class="time" datetime="2019-05-25">
+                <span class="day">25</span>
+                <span class="month">April</span>
+              </time>
+            </div>
+            <div class="posts-comments">
+              <span class="number">22</span>
+              <button class="plus"></button>
+              <div class="messages-block">
+                <ul class="twits-list">
+                  <li class="twits-item new">
+                    <p class="message">Daily Mobile UI Design Inspiration #1</p>
+                    <p class="author">via @cssauthor</p>
+                  </li>
+                  <li class="twits-item">
+                    <p class="message">Daily Mobile UI Design Inspiration #1</p>
+                    <p class="author">via @cssauthor</p>
+                  </li>
+                  <li class="twits-item">
+                    <p class="message">Daily Mobile UI Design Inspiration #1</p>
+                    <p class="author">via @cssauthor</p>
+                  </li>
+                </ul>
+                <form class="twitter-form">
+                  <input type="text">
+                  <input type="submit" value="Tweet">
+                </form>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <input type="range" class="paginator" min="1" max="8" value="3.5" step="0.5">
+      </div>
+    </section>
+
+    <!-- Preview -->
+
+    <section class="preview">
+      <div class="wrapper">
+        <h2 class="section-title">
+          Lorem ipsum dolor sit amet
+        </h2>
+        <div class="gadgets">
+          <div class="accent">Its 100% free</div>
+          <img src="./assets/img/gadgets.png" alt="Application preview on different sizes screens"
+            class="gadgets-screens">
+          <ul class="gadgets-points-list">
+            <li class="gadgets-point">Sed ut perspiciatis unde omnis</li>
+            <li class="gadgets-point">Lorem ipsum dolor sit amet, con&shy;sectetur adipisicing</li>
+            <li class="gadgets-point">Sed ut perspiciatis unde omnis</li>
+            <li class="gadgets-point">Lorem ipsum dolor sit amet, con&shy;sectetur adipisicing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html" class="logo-link">
+          <svg class="icon" width="55" height="55">
+            <use xlink:href="#logo"></use>
+          </svg>
+          <span class="logo-title">
+            Theyalow
+          </span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
